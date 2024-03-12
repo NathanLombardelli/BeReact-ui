@@ -1,0 +1,60 @@
+.socialButton{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  p{
+    margin-left: 5px ;
+    color: blue;
+  }
+}
+
+.socialButtonSmall{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  p{
+    color: blue;
+  }
+}
+
+.cursorPointer{
+  &:hover{
+    cursor: pointer;
+  }
+}
+
+.pulse{
+  &:hover{
+    animation: pulse 2s infinite;
+  }
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.7);
+  }
+
+  70% {
+    transform: scale(1);
+    box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
+  }
+
+  100% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+  }
+}
+
+.grow{
+  &:hover{
+    transform: scale(1.25);
+  }
+}
+
+.growT{
+  transition: 0.75s ease-in-out;
+  &:hover{
+    transform: scale(1.25);
+  }
+}

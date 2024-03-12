@@ -1,0 +1,9 @@
+{
+  "name": "BeReact-ui",
+  "workspaces": {
+    "packages": [
+      "packages/*",
+      "test/*"
+    ]
+  }
+}

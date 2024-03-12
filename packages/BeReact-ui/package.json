@@ -1,0 +1,67 @@
+{
+  "name": "bereact-ui",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/bereact-ui.cjs.js",
+  "typings": "./dist/index.d.ts",
+  "module": "./dist/bereact-ui.es.js",
+  "exports": {
+    "./Input": {
+      "import": "./dist/Input/bereact-ui.es.js",
+      "require": "./dist/Input/bereact-ui.cjs.js",
+      "types": "./dist/Input/index.d.ts"
+    },
+    "./Button": {
+      "import": "./dist/Button/bereact-ui.es.js",
+      "require": "./dist/Button/bereact-ui.cjs.js",
+      "types": "./dist/Button/index.d.ts"
+    },
+    ".": {
+      "import": "./dist/bereact-ui.es.js",
+      "require": "./dist/bereact-ui.cjs.js",
+      "types": "./dist/index.d.ts"
+    },
+    "./style.css": "./dist/style.css"
+  },
+  "typesVersions": {
+    "*": {
+      "*": [
+        "./dist/*"
+      ]
+    }
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "build:dev": "vite build --watch",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.26",
+    "@types/react": "^18.2.64",
+    "@types/react-dom": "^18.2.21",
+    "@typescript-eslint/eslint-plugin": "^7.1.1",
+    "@typescript-eslint/parser": "^7.1.1",
+    "@vitejs/plugin-react": "^4.2.1",
+    "eslint": "^8.57.0",
+    "eslint-import-resolver-typescript": "^3.6.1",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-jsx-a11y": "^6.8.0",
+    "eslint-plugin-react": "^7.34.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.5",
+    "sass": "^1.71.1",
+    "typescript": "^5.2.2",
+    "vite": "^5.1.6",
+    "vite-plugin-dts": "^3.7.3"
+  }
+}

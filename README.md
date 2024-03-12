@@ -33,4 +33,3 @@ il est préférable de créer ses composants dans un autre projet (besoin de rel
 - Ajouter le composant à la 'TESTS ZONE'.
 - Dans packages/BeReact-ui , executer ``npm run build`` a chaque modifications ou utiliser ``npm run build:dev`` pour build automatiquement a chaque modification.
 - Dans test/BeReact-ui-test executer ``npm run dev`` à chaque modification de package ( à fix ).
-- 

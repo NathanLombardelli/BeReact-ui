@@ -6,9 +6,9 @@ Librarie de composants React open-source
   ```
   cd le_chemin_du_projet
   npm i
-  cd packages
+  cd packages/BeReact-ui
   npm i
-  cd ../test
+  cd ../../test/BeReact-ui-test
   npm i
   ```
 - Dans packages/BeReact-ui/src , aller dans le dossier qui correspond à catégorie du composant que vous souhaiter créer et créer un dossier du nom de votre composant en camelCase.

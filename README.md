@@ -18,8 +18,12 @@ Bibliothèque de composants React open-source
 - Ajouter au index.ts de la catégorie (le composant doit être exporté par défaut) : <br>``export { default as NOM_COMPOS } from './DOSSIER_COMPOS/COMPOS.tsx'``
 - Ajouter au index.ts de src : <br>``export { default as NOM_COMPOS } from './CATEGORIE/DOSSIER_COMPOS/COMPOS.tsx'``
 - Faites des commits puis un ``git push``
-- Une fois le composant terminer, faites une Pull Request vers la branche develop:
-
+- Une fois le composant terminer, faites une Pull Request vers la branche develop (Compare & pull request):
+<img src="./img/PR.png">
+- /!\ bien sélectionner le merge vers develop ( develop <= votre_branche). et assigné vous (à droite).
+  <img src="./img/Create PR.png">
+  <img src="./img/WaitPR.png">
+- Attender de recevoir un feedback ( vous pouvez retrouver votre PR dans la section Pull requests du projet github).
 
 
 ### Si nouvelle catégorie

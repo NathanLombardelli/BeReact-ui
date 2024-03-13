@@ -17,15 +17,15 @@ Bibliothèque de composants React open-source
 - Dans ce dossier, créez votre composant en .tsx et son .css/.scss. (N'oubliez pas d'importer le .css/.scss à votre composant).
 - Ajouter au index.ts de la catégorie (le composant doit être exporté par défaut) : <br>``export { default as NOM_COMPOS } from './DOSSIER_COMPOS/COMPOS.tsx'``
 - Ajouter au index.ts de src : <br>``export { default as NOM_COMPOS } from './CATEGORIE/DOSSIER_COMPOS/COMPOS.tsx'``
+- Faite une capture d'écran pour présenter votre composant (Fiche de présentation de la bibliothèque sur npm, ajouter l'image dans le dossier ``img`` et ajouter la dans le readme de packages avec le titre de votre composant et une description si nécessaire.
 - Faites des commits puis un ``git push``
 - Une fois le composant terminer, faites une Pull Request vers la branche develop (Compare & pull request):
 <img src="./img/PR.png">
 - /!\ bien sélectionner le merge vers develop ( develop <= votre_branche). et assigné vous (à droite).
   <img src="./img/Create PR.png">
-  <img src="./img/WaitPR.png">
-- Attender de recevoir un feedback ( vous pouvez retrouver votre PR dans la section Pull requests du projet github).
-
-
+  <img src="./img/waitPR.png">
+- Attendez de recevoir un feedback ou une validation (vous pouvez retrouver votre PR dans la section Pull requests du projet GitHub).
+- Une fois votre PR approuvée, le contenu sera ajouté à develop puis sera mis sur la branche main (fin de semaine) et sera publié.
 ### Si nouvelle catégorie
 - vite.config.ts : in build/lib/entry ``'CATEGORIE': path.resolve(__dirname, 'src/CATEGORIE'),``
 - package.json : add in exports. <br>
@@ -43,3 +43,11 @@ Il est préférable de créer ses composants dans un autre projet (besoin de rel
 - Ajoutez le composant à la 'TESTS ZONE'.
 - Dans packages/BeReact-ui, exécutez ``npm run build`` à chaque modification ou utilisez ``npm run build:dev`` pour construire automatiquement à chaque modification.
 - Dans test/BeReact-ui-test executer ``npm run dev``  à chaque modification du package (à fix).
+
+## Pour proposer une modification d'un composant
+- Créer une branche "fix/NOM_COMPOS" à partir de develop : 
+```
+git checkout develop
+git checkout -b fix/NOM_COMPOS
+```
+- Faire les modifications voulues, commit,push et créer une Pull Request.

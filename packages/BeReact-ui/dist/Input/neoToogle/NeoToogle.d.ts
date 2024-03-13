@@ -1,11 +1,11 @@
 interface propsTypes {
     /**  css background */
     bgColor?: string;
-    /**  css background */
+    /**  neon color */
     neoncolor?: string;
-    /**  css background */
+    /**  toogle Color*/
     toogleColor?: string;
-    /**  css background */
+    /**  css borderColor */
     borderColor?: string;
     /**  size */
     size?: string;

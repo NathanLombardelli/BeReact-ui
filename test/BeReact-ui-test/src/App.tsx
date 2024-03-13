@@ -7,7 +7,7 @@ function App() {
 
     // TypeScript nécessaire pour les composants.
 
-    const[checked,setChecked] = useState(true);
+    const[checked,setChecked] = useState(false);
 
   return (
       // Switch className dark to light for light mode.

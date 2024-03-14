@@ -1,11 +1,29 @@
 {
   "name": "bereact-ui",
-  "private": true,
   "version": "1.0.0",
+  "description": "Librarie de composants React open-source",
   "type": "module",
   "files": [
     "dist"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NathanLombardelli/BeReact-ui"
+  },
+  "keywords": [
+    "react",
+    "typescript",
+    "librairy",
+    "components"
+  ],
+  "author": {
+    "name": "Nathan Lombardelli",
+    "url": "https://nathanlombardelli.be"
+  },
+  "bugs": {
+    "url": "https://github.com/NathanLombardelli/BeReact-ui/issues"
+  },
+  "homepage": "https://github.com/NathanLombardelli/BeReact-ui#readme",
   "main": "./dist/bereact-ui.cjs.js",
   "typings": "./dist/index.d.ts",
   "module": "./dist/bereact-ui.es.js",

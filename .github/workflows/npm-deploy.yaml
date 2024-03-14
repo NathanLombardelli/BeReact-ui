@@ -1,0 +1,33 @@
+name: Build and Publish NPM Package
+
+on:
+  push:
+    branches:
+      - main  # Set this to your default branch
+
+jobs:
+  build-and-publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the repo
+        uses: actions/checkout@v3
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '19' # You can specify your Node.js version here
+          registry-url: 'https://registry.npmjs.org'
+
+      - name: Install dependencies
+        run: npm install
+        working-directory: packages/BeReact-ui
+
+      - name: Build the package
+        run: npm run build
+        working-directory: packages/BeReact-ui
+
+      - name: Publish the package
+        run: npm publish dist --access public
+        working-directory: packages/BeReact-ui
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }} # Make sure NPM_TOKEN is set in your repository's secrets

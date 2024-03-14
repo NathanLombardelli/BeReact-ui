@@ -20,12 +20,16 @@ Bibliothèque de composants React open-source
 - Faite une capture d'écran pour présenter votre composant (Fiche de présentation de la bibliothèque sur npm, ajouter l'image dans le dossier ``img`` et ajouter la dans le readme de packages (src =`` https://raw.githubusercontent.com/NathanLombardelli/BeReact-ui/main/img/ ``+ NomImage.png) avec le titre de votre composant et votre pseudo entre () + description si nécessaire.
 - Faites des commits puis un ``git push``
 - Une fois le composant terminer, faites une Pull Request vers la branche develop (Compare & pull request):
-<img src="./img/PR.png">
+<img src="./img/PR.png"> <br>
+
 - /!\ bien sélectionner le merge vers develop ( develop <= votre_branche). et assigné vous (à droite).
+  
   <img src="./img/Create PR.png">
-  <img src="./img/waitPR.png">
+  <img src="./img/waitPR.png"> <br>
+  
 - Attendez de recevoir un feedback ou une validation (vous pouvez retrouver votre PR dans la section Pull requests du projet GitHub).
 - Une fois votre PR approuvée, le contenu sera ajouté à develop puis sera mis sur la branche main (fin de semaine) et sera publié.
+
 ### Si nouvelle catégorie
 - vite.config.ts : in build/lib/entry ``'CATEGORIE': path.resolve(__dirname, 'src/CATEGORIE'),``
 - package.json : add in exports. <br>

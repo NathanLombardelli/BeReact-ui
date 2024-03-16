@@ -17,6 +17,7 @@ jobs:
         with:
           node-version: '20' # You can specify your Node.js version here
           registry-url: 'https://npm.pkg.github.com'
+          scope: '@nathanlombardelli'
 
       - name: Install dependencies
         run: npm install

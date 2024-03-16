@@ -38,6 +38,11 @@
       "require": "./dist/Button/bereact-ui.cjs.js",
       "types": "./dist/Button/index.d.ts"
     },
+    "./Text": {
+      "import": "./dist/Text/bereact-ui.es.js",
+      "require": "./dist/Text/bereact-ui.cjs.js",
+      "types": "./dist/Text/index.d.ts"
+    },
     ".": {
       "import": "./dist/bereact-ui.es.js",
       "require": "./dist/bereact-ui.cjs.js",

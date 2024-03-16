@@ -1,0 +1,1 @@
+export { default as WavyText} from './wavyText/WavyText.tsx'

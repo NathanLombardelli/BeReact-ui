@@ -3,11 +3,7 @@ name: Build and Publish NPM Package
 on:
   push:
     branches:
-      - main
-      
-permissions:
-  contents: read
-  packages: write
+      - main  # Set this to your default branch
 
 jobs:
   build-and-publish:
@@ -19,10 +15,8 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '20'
-          registry-url: https://npm.pkg.github.com/
-          scope: '@NathanLombardelli'
-      - run: npm ci
+          node-version: '20' # You can specify your Node.js version here
+          registry-url: 'https://registry.npmjs.org'
 
       - name: Install dependencies
         run: npm install
@@ -31,9 +25,9 @@ jobs:
       - name: Build the package
         run: npm run build
         working-directory: packages/BeReact-ui
-        
+
       - name: Publish the package
         run: npm publish dist --access public
         working-directory: packages/BeReact-ui
         env:
-          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }} # Make sure NPM_TOKEN is set in your repository's secrets

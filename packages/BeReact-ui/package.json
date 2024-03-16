@@ -1,7 +1,7 @@
 {
   "name": "bereact-ui",
-  "version": "1.0.0",
-  "description": "Librarie de composants React open-source",
+  "version": "0.0.1",
+  "description": "Bibliothèque de composants React open-source",
   "type": "module",
   "files": [
     "dist"

@@ -129,3 +129,6 @@ out
 
 # PhpStorm
 .idea
+
+# BeReact-ui-test
+/test/

@@ -1,0 +1,27 @@
+.wavy{
+  font-family: Consolas;
+  span{
+    --delay:0.1s;
+    --jumpHeight: -10px;
+    --animationTime: 1s;
+    position: relative;
+    display: inline-block;
+    color: #fff;
+    font-size: 1em;
+    text-transform: uppercase;
+    animation: animate calc(var(--animationTime)) ease-in-out infinite;
+    animation-delay: calc(var(--delay) * var(--i));
+  }
+}
+
+@keyframes animate {
+  0%{
+    transform: translateY(0px);
+  }
+  20%{
+    transform: translateY(var(--jumpHeight));
+  }
+  40%,100%{
+    transform: translateY(0px);
+  }
+}

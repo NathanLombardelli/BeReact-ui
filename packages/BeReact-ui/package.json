@@ -1,7 +1,7 @@
 {
   "name": "bereact-ui",
-  "version": "0.0.1",
-  "description": "Librarie de composants React open-source",
+  "version": "0.0.2",
+  "description": "Bibliothèque de composants React open-source",
   "type": "module",
   "files": [
     "dist"
@@ -37,6 +37,11 @@
       "import": "./dist/Button/bereact-ui.es.js",
       "require": "./dist/Button/bereact-ui.cjs.js",
       "types": "./dist/Button/index.d.ts"
+    },
+    "./Text": {
+      "import": "./dist/Text/bereact-ui.es.js",
+      "require": "./dist/Text/bereact-ui.cjs.js",
+      "types": "./dist/Text/index.d.ts"
     },
     ".": {
       "import": "./dist/bereact-ui.es.js",

@@ -17,7 +17,7 @@ Bibliothèque de composants React open-source
 - Dans ce dossier, créez votre composant en .tsx et son .css/.scss. (N'oubliez pas d'importer le .css/.scss à votre composant).
 - Ajouter au index.ts de la catégorie (le composant doit être exporté par défaut) : <br>``export { default as NOM_COMPOS } from './DOSSIER_COMPOS/COMPOS.tsx'``
 - Ajouter au index.ts de src : <br>``export { default as NOM_COMPOS } from './CATEGORIE/DOSSIER_COMPOS/COMPOS.tsx'``
-- Faite une capture d'écran pour présenter votre composant (Fiche de présentation de la bibliothèque sur npm, ajouter l'image dans le dossier ``img`` et ajouter la dans le readme de packages (src =`` https://raw.githubusercontent.com/NathanLombardelli/BeReact-ui/main/img/ ``+ NomImage.png) avec le titre de votre composant et votre pseudo entre () + description si nécessaire.
+- Faite une capture d'écran pour présenter votre composant (Fiche de présentation de la bibliothèque sur npm, ajouter l'image dans le dossier ``img`` et ajouter la dans le readme de packages (src =`` https://raw.githubusercontent.com/NathanLombardelli/BeReact-ui/main/img/ ``+ NomImage.png) avec le titre de votre composant et votre pseudo + description si nécessaire.
 - Faites des commits puis un ``git push``
 - Une fois le composant terminer, faites une Pull Request vers la branche develop (Compare & pull request):
 <img src="./img/PR.png"> <br>

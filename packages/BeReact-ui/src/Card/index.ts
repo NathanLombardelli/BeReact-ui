@@ -1,0 +1,1 @@
+export { default as HoloCard } from './holoCard/HoloCard.tsx'

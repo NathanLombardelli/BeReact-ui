@@ -43,6 +43,11 @@
       "require": "./dist/Text/bereact-ui.cjs.js",
       "types": "./dist/Text/index.d.ts"
     },
+    "./Card": {
+      "import": "./dist/Card/bereact-ui.es.js",
+      "require": "./dist/Card/bereact-ui.cjs.js",
+      "types": "./dist/Card/index.d.ts"
+    },
     ".": {
       "import": "./dist/bereact-ui.es.js",
       "require": "./dist/bereact-ui.cjs.js",

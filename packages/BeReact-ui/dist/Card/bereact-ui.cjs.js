@@ -1,1 +1,1 @@
-"use strict";Object.defineProperty(exports,Symbol.toStringTag,{value:"Module"});const o=require("../HoloCard-Dy0w-8W5.cjs");exports.HoloCard=o.HoloCard;
+"use strict";Object.defineProperty(exports,Symbol.toStringTag,{value:"Module"});const o=require("../HoloCard-C5P52Fgp.cjs");exports.HoloCard=o.HoloCard;

@@ -3,14 +3,8 @@
   position: relative;
   display: inline-block;
   height: fit-content;
-  --x: 50%;
-  --y: 50%;
-  --bg-x: 50%;
-  --bg-y: 50%;
-  --r-x: 0deg;
-  --r-y: 0deg;
   --step: 5%;
-  --pattern: url(./rareEffect/rareEffect1.jpg) center / 75%;
+  --pattern: var(--patternPath) center / 75%;
   --rainbow: repeating-linear-gradient(
                   0deg,
                   rgb(255, 119, 115) calc(var(--step) * 1),

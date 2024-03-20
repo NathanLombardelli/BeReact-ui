@@ -1,6 +1,6 @@
 {
   "name": "bereact-ui",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Bibliothèque de composants React open-source",
   "type": "module",
   "files": [
@@ -11,10 +11,23 @@
     "url": "https://github.com/NathanLombardelli/BeReact-ui"
   },
   "keywords": [
-    "react",
-    "typescript",
+    "bereact-ui",
+    "component-library",
+    "components",
+    "custom-components",
+    "frontend",
     "librairy",
-    "components"
+    "modular-components",
+    "react",
+    "react-component-library",
+    "react-components",
+    "react-library",
+    "react-ui",
+    "react-ui-library",
+    "typescript",
+    "typescript-react",
+    "ui-components",
+    "ui-library"
   ],
   "author": {
     "name": "Nathan Lombardelli",

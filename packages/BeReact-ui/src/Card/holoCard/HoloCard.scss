@@ -1,3 +1,6 @@
+
+
+
 .card {
   box-sizing: border-box;
   position: relative;
@@ -60,6 +63,8 @@
         }
       }
       .card__layer1 {
+        --x:50%;
+        --y:50%;
         position: absolute;
         inset: 0;
         z-index: 20;

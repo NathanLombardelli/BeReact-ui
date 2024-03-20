@@ -15,6 +15,7 @@ export default defineConfig({
         'Button': path.resolve(__dirname, 'src/Button'),
         'Input': path.resolve(__dirname, 'src/Input'),
         'Text': path.resolve(__dirname, 'src/Text'),
+        'Card': path.resolve(__dirname, 'src/Card'),
         '': path.resolve(__dirname, 'src/index.ts')
       },
       name: 'bereact-ui',

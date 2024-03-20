@@ -1,16 +1,3 @@
-
-@property --x {
-  syntax: "<angle>";
-  inherits: true;
-  initial-value: 1deg;
-}
-
-@property --c {
-  syntax: "<color>";
-  inherits: true;
-  initial-value: #0000;
-}
-
 .neon {
   --x: 0deg;
   --c: #0000;

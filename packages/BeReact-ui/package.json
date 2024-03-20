@@ -1,6 +1,6 @@
 {
   "name": "bereact-ui",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Bibliothèque de composants React open-source",
   "type": "module",
   "files": [
@@ -11,10 +11,23 @@
     "url": "https://github.com/NathanLombardelli/BeReact-ui"
   },
   "keywords": [
-    "react",
-    "typescript",
+    "bereact-ui",
+    "component-library",
+    "components",
+    "custom-components",
+    "frontend",
     "librairy",
-    "components"
+    "modular-components",
+    "react",
+    "react-component-library",
+    "react-components",
+    "react-library",
+    "react-ui",
+    "react-ui-library",
+    "typescript",
+    "typescript-react",
+    "ui-components",
+    "ui-library"
   ],
   "author": {
     "name": "Nathan Lombardelli",
@@ -42,6 +55,11 @@
       "import": "./dist/Text/bereact-ui.es.js",
       "require": "./dist/Text/bereact-ui.cjs.js",
       "types": "./dist/Text/index.d.ts"
+    },
+    "./Card": {
+      "import": "./dist/Card/bereact-ui.es.js",
+      "require": "./dist/Card/bereact-ui.cjs.js",
+      "types": "./dist/Card/index.d.ts"
     },
     ".": {
       "import": "./dist/bereact-ui.es.js",

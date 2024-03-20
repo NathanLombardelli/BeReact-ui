@@ -1,4 +1,4 @@
-import { H as a } from "../HoloCard-IW1XiP_p.js";
+import { H as a } from "../HoloCard-oll9A0tO.js";
 export {
   a as HoloCard
 };

@@ -52,7 +52,7 @@ export default function HoloCard({content} : propsTypes) {
         <div className="card" ref={cardRef} onMouseMove={mouseMoveHandler} onMouseLeave={resetCardPosition}>
             <div className="card__wrapper">
                 <div className="card__3d">
-                    <div className="card__image">
+                    <div className="card__content">
                         {content}
                     </div>
                     <div className="card__layer1"></div>

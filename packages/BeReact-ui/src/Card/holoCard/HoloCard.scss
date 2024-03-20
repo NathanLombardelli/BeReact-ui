@@ -1,8 +1,8 @@
 .card {
-  width: 380px;
-  height: 467px;
   box-sizing: border-box;
   position: relative;
+  display: inline-block;
+  height: fit-content;
   --x: 50%;
   --y: 50%;
   --bg-x: 50%;
@@ -41,19 +41,28 @@
   var(--bg-x) var(--bg-y) / 300%;
   .card__wrapper {
     perspective: 600px;
-    position: absolute;
+    position: relative;
+    width: 100%;
+    height: auto;
     inset: 0;
     .card__3d {
       transform: rotateY(var(--r-x)) rotateX(var(--r-y));
-      position: absolute;
+      position: relative;
       inset: 0;
       clip-path: inset(0 0 0 0 round 48px);
-      .card__image {
-        clip-path: inset(0 0 0 0 round 48px);
+      width: inherit;
+      height: auto;
+      .card__content {
+        height: auto;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         img {
-          display: block;
-          max-width: 100%;
-          max-height: 100%;
+          height: auto;
+          width: 100%;
+          object-fit: contain;
+          object-position: center;
         }
       }
       .card__layer1 {

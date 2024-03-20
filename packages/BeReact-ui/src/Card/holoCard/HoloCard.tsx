@@ -78,13 +78,12 @@ export default function HoloCard({content,pattern,beginWithEffect,endKeepEffect,
     } as React.CSSProperties;
 
     return (
-        <div className="card" ref={cardRef} style={style} onMouseMove={mouseMoveHandler} onMouseLeave={resetCardPosition}>
+        <div className="bereact_ui_holoCard" ref={cardRef} style={style} onMouseMove={mouseMoveHandler} onMouseLeave={resetCardPosition}>
             <div className="card__wrapper">
                 <div className="card__3d">
                     <div className="card__content">
                         {content}
                     </div>
-                    <div className="card__layer1"></div>
                     <div className="card__layer2"></div>
                 </div>
             </div>

@@ -52,7 +52,7 @@ export default function WavyText({text,fontFamily,color,variation,hueColor,delay
     });
 
     return (
-        <div className="wavy">
+        <div className="bereact_ui_wavy">
             {letterSpans}
         </div>
     );

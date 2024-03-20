@@ -1,7 +1,4 @@
-
-
-
-.card {
+.bereact_ui_holoCard {
   box-sizing: border-box;
   position: relative;
   display: inline-block;
@@ -61,21 +58,6 @@
           object-fit: contain;
           object-position: center;
         }
-      }
-      .card__layer1 {
-        --x:50%;
-        --y:50%;
-        position: absolute;
-        inset: 0;
-        z-index: 20;
-        mix-blend-mode: soft-light;
-        clip-path: inset(0 0 1px 0 round 48px);
-        background: radial-gradient(
-                        farthest-corner circle at var(--x) var(--y),
-                        rgba(255, 255, 255, 0.8) 10%,
-                        rgba(255, 255, 255, 0.65) 20%,
-                        rgba(255, 255, 255, 0) 90%
-        );
       }
       .card__layer2 {
         position: absolute;

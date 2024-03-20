@@ -131,4 +131,7 @@ out
 .idea
 
 # BeReact-ui-test
+.test
 /test/
+/test/BeReact-ui-test/
+/test/BeReact-ui-test/src/

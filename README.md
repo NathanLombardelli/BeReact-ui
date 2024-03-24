@@ -10,3 +10,8 @@ Bibliothèque de composants React open-source
 <br>
 <br>
 ![](https://raw.githubusercontent.com/NathanLombardelli/BeReact-ui/main/img/wavyText.gif)
+## HoloCard
+``NathanLombardelli``
+<br>
+<br>
+![](https://raw.githubusercontent.com/NathanLombardelli/BeReact-ui/main/img/HoloCard.gif)

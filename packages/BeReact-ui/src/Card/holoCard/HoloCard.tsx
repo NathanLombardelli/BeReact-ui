@@ -2,10 +2,15 @@ import {useRef, useCallback, ReactNode, useEffect} from 'react';
 import './HoloCard.scss';
 
 interface propsTypes{
+    /** content ( ReactNode or just img/> )*/
     content: ReactNode,
+    /** link of the pattern effect ( white on black background ) */
     pattern?: string,
+    /** Begin With Effect ? */
     beginWithEffect?:boolean
+    /** onMouseLeave keep Effect ? */
     endKeepEffect?:boolean
+    /** width of the card */
     size?:number
 }
 
